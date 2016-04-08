@@ -1,4 +1,4 @@
-(defproject stanfordnlp-clj "0.1.0-SNAPSHOT"
+(defproject keorn/stanfordnlp-clj "0.1.0-SNAPSHOT"
   :description "Simple wrapper for Stanford NLP tools."
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
