@@ -6,7 +6,7 @@
 
 ; Tokenizing
 (defn tokenize-sentences [text]
-  (iterator-seq (.iterator (DocumentPreprocessor. (StringReader. text)))))
+  (mapv vec (iterator-seq (.iterator (DocumentPreprocessor. (StringReader. text))))))
 
 ; Tagging
 (def ^{:private true} 
